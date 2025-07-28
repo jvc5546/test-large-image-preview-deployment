@@ -6,4 +6,4 @@ deploy:
   - name: Set env value
     command: echo "OKTETO_FOLDER=/app" >> $OKTETO_ENV
   - name: Get env value
-    command: sleep 10000
+    command: echo "$OKTETO_FOLDER"

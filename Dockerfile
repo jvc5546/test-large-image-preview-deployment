@@ -1,3 +1,3 @@
 FROM pytorch/pytorch:latest
 
-ENTRYPOINT [ "echo 'hello world'" ]
+ENTRYPOINT [ "echo 'hello okteto world'" ]
